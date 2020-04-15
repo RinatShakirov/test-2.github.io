@@ -1,0 +1,62 @@
+footer {
+  max-width: 1366px;
+  padding-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+}
+
+footer .social-nav {
+  width: 1366px;
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .social-nav img {
+  width: 26px;
+  margin: 25px 42px;
+  cursor: pointer;
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
+}
+
+footer .social-nav img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+footer .footer-inner p {
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: #777777;
+  padding-bottom: 50px;
+}
+
+footer .footer-inner p span {
+  color: #000000;
+  font-size: .9rem;
+}
+/*# sourceMappingURL=footer.css.map */

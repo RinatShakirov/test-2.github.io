@@ -1,0 +1,107 @@
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.header-wrapper .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0;
+  position: relative;
+}
+
+.header-wrapper .nav-link .menu-close {
+  display: none;
+}
+
+.header-wrapper .nav-link .line {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  margin-right: 20px;
+  background: #000000;
+}
+
+.header-wrapper .nav-link .line:first-child, .header-wrapper .nav-link .line:last-child {
+  display: none;
+}
+
+.header-wrapper .nav-link a {
+  text-decoration: none;
+  color: #777777;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.header-wrapper .nav-link a:hover {
+  color: #000000;
+}
+
+.header-wrapper .nav-link .img-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 4%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.header-wrapper .nav-link .img-wrapp input {
+  width: 100%;
+  text-align: center;
+  color: #A1A1A1;
+  font-size: .8rem;
+  background: #000000;
+  border: 1px solid #000000;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.header-wrapper .nav-link .img-wrapp img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.header-wrapper .nav-link .img-wrapp .btn-search-off {
+  display: none;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,55 @@
+@import '../../css/variables.scss';
+
+.wrapper-first{
+    max-width:1366px;
+    min-height:100vh;
+    margin: 0 auto;
+
+    display:flex;
+    flex-direction:column;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+
+    .main-wrapper{
+        flex: 1 1 auto;
+        position: relative;
+        top:-8px;
+        max-width:1366px;
+        background: $bgColor6;
+        .latest-projects-wrapp{
+            max-width:1366px;
+            position:relative;
+            background: url('../../images/portfolio/portfolio.png')center no-repeat;
+            height:80vh;
+            display:flex;
+            justify-content: center;
+            .latest-projects-inner{
+                position: relative;
+                max-width:600px;
+                display:flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+                h1{
+                    padding:5px 60px;
+                    margin:20px 0;
+                    background: $textColorFirst;
+                    font-size:1.8rem;
+                    font-weight:200;
+                    text-transform: uppercase;
+                    color:$bgColor;
+                }
+                p{
+                    padding:5px 50px;
+                    font-size:1rem;
+                    font-weight:200;
+                    text-transform: uppercase;
+                    color:$textColorFirst;
+                    letter-spacing: 2px;
+                    position: relative;
+                }
+            }
+        }
+    }
+}
